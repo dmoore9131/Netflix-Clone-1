@@ -1,5 +1,9 @@
 <h1>Netflix Clone</h1>
 <img width="959" alt="Netflix Clone" src="https://github.com/user-attachments/assets/2a33ef4c-0ab8-4dc8-ae06-b02908756c17">
+<img width="943" alt="Netlfix Clone 2" src="https://github.com/user-attachments/assets/370ef343-e018-4922-961d-185ccb25bc2b">
+<img width="946" alt="Netflix Clone 3" src="https://github.com/user-attachments/assets/1791fa13-4fe8-4bc6-83c5-d18c30ebb514">
+
+
 
 
 This is a Netflix clone application built using modern web technologies. The project aims to replicate the core features of Netflix, such as user authentication, movie/TV show browsing, and video streaming, with a clean and responsive user interface.
