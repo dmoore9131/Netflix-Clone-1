@@ -12,7 +12,7 @@ const Player = () => {
   useEffect(() => {
     const fetchVideo = async () => {
       try {
-        const response = await fetch(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=004a5eb998f9db4864992edecec4facc`);
+        const response = await fetch(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=`);
         if (!response.ok) throw new Error('HTTP error! Status: ' + response.status);
         const data = await response.json();
         const video = data.results[0];
