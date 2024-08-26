@@ -1,5 +1,5 @@
-# Netflix Clone
-
+<h1>Netflix Clone</h1>
+<img src-"Netflix Clone.MP4 File">
 
 This is a Netflix clone application built using modern web technologies. The project aims to replicate the core features of Netflix, such as user authentication, movie/TV show browsing, and video streaming, with a clean and responsive user interface.
 
