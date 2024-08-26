@@ -5,12 +5,12 @@ import { toast } from "react-toastify";
 
 // Firebase configuration object containing the project's API keys and identifiers
 const firebaseConfig = {
-  apiKey: "AIzaSyBu6Exa5B8zKUmODrEqNVbA5RUkIA-a3p4",
-  authDomain: "netflix-clone-5e146.firebaseapp.com",
-  projectId: "netflix-clone-5e146",
-  storageBucket: "netflix-clone-5e146.appspot.com",
-  messagingSenderId: "136035315919",
-  appId: "1:136035315919:web:84a3d8c9ac63523ef587ba"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase app
