@@ -1,0 +1,74 @@
+.titlecards {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.titlecards h2 {
+  margin-bottom: 8px;
+  text-align: left; /* Center the title */
+}
+
+.card-list {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  gap: 10px;
+  padding: 10px 0;
+  margin: 0 auto; /* Center the card list */
+  max-width: 100%; /* Ensure cards fit within the container */
+}
+
+.card {
+  flex: 0 0 auto; /* Ensures cards don't shrink and are sized according to their content */
+  width: 200px; /* Adjust as needed */
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px;
+}
+
+.card p {
+  margin: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 800px){
+  .title-cards{
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .title-cards h2{
+    font-size: 20px;
+  }
+.card-list img{
+  width: 200px;
+}
+.card-list p{
+  font-size: 12px;
+}
+}
+
+
+
+@media (max-width: 500px){
+  
+  .title-cards h2{
+    font-size: 15px;
+  }
+.card-list img{
+  width: 165px;
+}
+.card-list p{
+  font-size: 10px;
+}
+}
